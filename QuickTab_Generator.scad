@@ -1,11 +1,5 @@
 //QuickTab_Generator, generates tabs quickly
 
-//things to add in v2
-    //add unit conversions
-    //add reduced weight setting
-    //add taper
-    //add web interface
-       
 //model setup 
 $fa = 2;
 $fs = 0.05;
@@ -30,5 +24,5 @@ translate([-(tabLength/2) + pipeDiameter/2,0,0])
     cylinder(h = tabDepth + 0.1, d = holeDiameter, center = true);
 }
 
-echo("test echo");
+//echo("test echo");
 
